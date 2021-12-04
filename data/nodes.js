@@ -9,7 +9,7 @@ dataNodes = [
             "user-agent-noreply",
         ],
         "imageUrl": "static/logo/scope-house.png",
-        "url": null,
+        "url": "https://github.com/lorien/ru-osint",
     },
     {
         "id": "user-madspectator",

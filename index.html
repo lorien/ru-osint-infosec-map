@@ -15,9 +15,14 @@
 <script src="data/nodes.js"></script>
 <script>
 function formatTgAnchor(url) {
+    var isTme = url.indexOf('t.me') > -1;
     if (url) {
-        var ret = url.replace(/https:\/\/t.me\//, '');
-        ret = '@' + ret;
+        if (isTme) {
+            var ret = url.replace(/https:\/\/t.me\//, '');
+            ret = '@' + ret;
+        } else {
+            var ret = url.replace(/https:\/\//, '');
+        }
         return ret;
     } else {
         return null;
