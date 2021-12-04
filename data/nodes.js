@@ -9,6 +9,9 @@ dataNodes = [
             "user-agent-noreply",
             "user-denis-wagner",
             "user-cyberyozh",
+            "user-gspdnsobaka",
+            "user-jsdio",
+            "user-followmebla",
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": "https://github.com/lorien/ru-osint-infosec",
@@ -94,7 +97,9 @@ dataNodes = [
         "id": "channel-howtofind-ru",
         "name": "HowToFind на русском",
         "type": "channel",
-        "links": [],
+        "links": [
+            "group-howtofind-chat"
+        ],
         "imageUrl": "static/logo/channel-howtofind-ru.jpg",
         "url": "https://t.me/howtofind_ru"
     },
@@ -134,6 +139,7 @@ dataNodes = [
         "name": "Библиотека цифровой разведки - OSINT",
         "type": "channel",
         "links": [
+            "group-osint-rf",
         ],
         "imageUrl": "static/logo/channel-osint-rf-lib.jpg",
         "url": "https://t.me/osint_rf_lib"
@@ -172,6 +178,7 @@ dataNodes = [
         "name": "CyberYozh",
         "type": "channel",
         "links": [
+            "group-cyberyozhtalks",
         ],
         "imageUrl": "static/logo/channel-cyberyozh-official.jpg",
         "url": "https://t.me/cyberyozh_official",
@@ -184,5 +191,65 @@ dataNodes = [
         ],
         "imageUrl": "static/logo/group-cyberyozhtalks.jpg",
         "url": "https://t.me/cyberyozhtalks",
+    },
+    {
+        "id": "user-gspdnsobaka",
+        "name": "господин собака",
+        "type": "user",
+        "links": [
+            "channel-osint-club-channel",
+            "group-osint-club",
+        ],
+        "imageUrl": "static/logo/user-gspdnsobaka.jpg",
+        "url": "https://t.me/gspdnsobaka",
+    },
+    {
+        "id": "user-jsdio",
+        "name": "Григорич",
+        "type": "user",
+        "links": [
+            "channel-osint-club-channel",
+            "group-osint-club",
+        ],
+        "imageUrl": "static/logo/user-jsdio.jpg",
+        "url": "https://t.me/jsdio",
+    },
+    {
+        "id": "group-osint-club",
+        "name": "OSINT Club",
+        "type": "group",
+        "links": [
+        ],
+        "imageUrl": "static/logo/group-osint-club.jpg",
+        "url": "https://t.me/osint_club",
+    },
+    {
+        "id": "channel-osint-club-channel",
+        "name": "OSINT CLUB",
+        "type": "channel",
+        "links": [
+            "group-osint-club",
+        ],
+        "imageUrl": "static/logo/channel-osint-club-channel.jpg",
+        "url": "https://t.me/osint_club_channel",
+    },
+    {
+        "id": "channel-b4tr-channel",
+        "name": "b4tr_channel",
+        "type": "channel",
+        "links": [
+        ],
+        "imageUrl": "static/logo/channel-b4tr-channel.jpg",
+        "url": "https://t.me/b4tr_channel",
+    },
+    {
+        "id": "user-followmebla",
+        "name": "Follow me!",
+        "type": "user",
+        "links": [
+            "channel-b4tr-channel",
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": "https://t.me/followmebla",
     },
 ];
