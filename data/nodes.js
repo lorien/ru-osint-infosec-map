@@ -1,8 +1,8 @@
 dataNodes = [
     {
-        "id": "scope-ru-osint",
+        "id": "scope-ru-osint-infosec",
         "type": "scope",
-        "name": "RU OSINT",
+        "name": "RU OSINT InfoSec",
         "links": [
             "user-madspectator",
             "user-soxoj",
@@ -11,7 +11,7 @@ dataNodes = [
             "user-cyberyozh",
         ],
         "imageUrl": "static/logo/scope-house.png",
-        "url": "https://github.com/lorien/ru-osint",
+        "url": "https://github.com/lorien/ru-osint-infosec",
     },
     {
         "id": "user-madspectator",
