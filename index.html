@@ -1,0 +1,99 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <script src="static/js/vivagraph.min.js"></script>
+    <script src="static/js/jquery-3.6.0.min.js"></script>
+    <style>
+        html, body, svg, #box {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+<script src="data/nodes.js"></script>
+<script>
+function formatTgAnchor(url) {
+    if (url) {
+        var ret = url.replace(/https:\/\/t.me\//, '');
+        ret = '@' + ret;
+        return ret;
+    } else {
+        return null;
+    }
+}
+
+function render(nodes) {
+    var graph = Viva.Graph.graph();
+    nodes.forEach(elem => {
+        graph.addNode(
+            elem.id, elem
+        );
+        /*
+            {   
+                imageUrl: elem.imageUrl,
+                url: elem.url,
+                name: elem.name,
+                type: elem.type,
+            }
+        );
+        */
+    });
+    nodes.forEach(elem => {
+        elem.links.forEach(targetId => {
+            graph.addLink(elem.id, targetId);
+        });
+    })
+    var graphics = Viva.Graph.View.svgGraphics();
+    var nodeSize = 24;
+    graphics.node(function(node) {
+        var ui = Viva.Graph.svg('g');
+        var capText = '(' + node.data.type[0] + ') ' + node.data.name;
+        var caption = Viva.Graph.svg('text')
+            .attr('y', '12px')
+            .attr('x', '38px')
+            .text(capText);
+        var link = Viva.Graph.svg('text')
+            .attr('y', '32px')
+            .attr('x', '38px')
+            .attr('fill', 'blue')
+            .text(formatTgAnchor(node.data.url));
+        var img = Viva.Graph.svg('image')
+             .attr('width', 32)
+             .attr('height', 32)
+             .link(node.data.imageUrl);
+        ui.append(img);
+        ui.append(caption);
+        ui.append(link);
+        $(link).on('click', function() {
+            window.open(node.data.url, '_blank');
+        });
+        return ui;
+    });
+    graphics.placeNode(function(node, pos) {
+        node.attr('transform',
+            'translate(' + 
+                (pos.x - nodeSize/2) + ',' + (pos.y - nodeSize/2) + ')'
+        );
+    });
+    var renderer = Viva.Graph.View.renderer(graph, {
+        container: document.getElementById('box'),
+        graphics: graphics
+    });
+    renderer.run();
+}
+/*
+$.get({
+    url: 'data/nodes.json',
+    data: {},
+    success: (resData) => {
+        render(resData);
+    },
+    dataType: 'json'
+});
+*/
+render(dataNodes);
+</script>
+</body>
+</html>
