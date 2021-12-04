@@ -8,6 +8,7 @@ dataNodes = [
             "user-soxoj",
             "user-agent-noreply",
             "user-denis-wagner",
+            "user-cyberyozh",
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": "https://github.com/lorien/ru-osint",
@@ -154,5 +155,34 @@ dataNodes = [
         ],
         "imageUrl": "static/logo/group-osint-search.jpg",
         "url": "https://t.me/osint_search"
+    },
+    {
+        "id": "user-cyberyozh",
+        "name": "Cyber Yozh",
+        "type": "user",
+        "links": [
+            "channel-cyberyozh-official",
+            "group-cyberyozhtalks",
+        ],
+        "imageUrl": "static/logo/user-cyber-yozh.jpg",
+        "url": null,
+    },
+    {
+        "id": "channel-cyberyozh-official",
+        "name": "CyberYozh",
+        "type": "channel",
+        "links": [
+        ],
+        "imageUrl": "static/logo/channel-cyberyozh-official.jpg",
+        "url": "https://t.me/cyberyozh_official",
+    },
+    {
+        "id": "group-cyberyozhtalks",
+        "name": "CyberYozh Talks",
+        "type": "group",
+        "links": [
+        ],
+        "imageUrl": "static/logo/group-cyberyozhtalks.jpg",
+        "url": "https://t.me/cyberyozhtalks",
     },
 ];
