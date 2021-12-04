@@ -15,7 +15,7 @@
 <script src="data/nodes.js"></script>
 <script>
 function formatTgAnchor(url) {
-    var isTme = url.indexOf('t.me') > -1;
+    var isTme = url && url.indexOf('t.me') > -1;
     if (url) {
         if (isTme) {
             var ret = url.replace(/https:\/\/t.me\//, '');
@@ -31,19 +31,22 @@ function formatTgAnchor(url) {
 
 function render(nodes) {
     var graph = Viva.Graph.graph();
+    var layout = Viva.Graph.Layout.forceDirected(graph, {
+        springLength : 100,
+        //dragCoeff : 0.02,
+        gravity : -10,
+        //theta: 0.8,
+        springCoeff : 0.0005,
+    });
     nodes.forEach(elem => {
         graph.addNode(
-            elem.id, elem
-        );
-        /*
-            {   
+            elem.id, {
                 imageUrl: elem.imageUrl,
                 url: elem.url,
                 name: elem.name,
                 type: elem.type,
             }
         );
-        */
     });
     nodes.forEach(elem => {
         elem.links.forEach(targetId => {
@@ -54,6 +57,7 @@ function render(nodes) {
     var nodeSize = 24;
     graphics.node(function(node) {
         var ui = Viva.Graph.svg('g');
+        console.log(node);
         var capText = '(' + node.data.type[0] + ') ' + node.data.name;
         var caption = Viva.Graph.svg('text')
             .attr('y', '12px')
@@ -84,7 +88,8 @@ function render(nodes) {
     });
     var renderer = Viva.Graph.View.renderer(graph, {
         container: document.getElementById('box'),
-        graphics: graphics
+        graphics: graphics,
+        layout: layout
     });
     renderer.run();
 }

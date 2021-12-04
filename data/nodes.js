@@ -7,6 +7,7 @@ dataNodes = [
             "user-madspectator",
             "user-soxoj",
             "user-agent-noreply",
+            "user-denis-wagner",
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": "https://github.com/lorien/ru-osint",
@@ -114,5 +115,44 @@ dataNodes = [
         ],
         "imageUrl": "static/logo/channel-osint-mindset.jpg",
         "url": "https://t.me/osint_mindset"
+    },
+    {
+        "id": "user-denis-wagner",
+        "name": "Denis Wagner",
+        "type": "user",
+        "links": [
+            "channel-osint-rf-lib",
+            "group-osint-rf",
+            "group-osint-search",
+        ],
+        "imageUrl": "static/logo/user-denis-wagner.jpg",
+        "url": null,
+    },
+    {
+        "id": "channel-osint-rf-lib",
+        "name": "Библиотека цифровой разведки - OSINT",
+        "type": "channel",
+        "links": [
+        ],
+        "imageUrl": "static/logo/channel-osint-rf-lib.jpg",
+        "url": "https://t.me/osint_rf_lib"
+    },
+    {
+        "id": "group-osint-rf",
+        "name": "OSINT | Сетевая разведка и поиск | Цифровая криминалистика | Forensic | Netstalking",
+        "type": "group",
+        "links": [
+        ],
+        "imageUrl": "static/logo/group-osint-rf.jpg",
+        "url": "https://t.me/osint_rf"
+    },
+    {
+        "id": "group-osint-search",
+        "name": "OSINT | Поиск людей | Розыск преступников | Интернет-расследования",
+        "type": "group",
+        "links": [
+        ],
+        "imageUrl": "static/logo/group-osint-search.jpg",
+        "url": "https://t.me/osint_search"
     },
 ];
