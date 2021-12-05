@@ -37,7 +37,8 @@ dataNodes = [
             "user-itscrt",
             "user-zeroday",
             "user-over",
-            "user-alukatsk"
+            "user-alukatsk",
+            "user-romachev"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -314,7 +315,8 @@ dataNodes = [
         "type": "user",
         "links": [
             "channel-irozysk",
-            "group-comments-irozysk"
+            "group-comments-irozysk",
+            "website-irozysk"
         ],
         "imageUrl": "static/logo/user.jpg",
         "url": "https://t.me/ibederov"
@@ -336,6 +338,14 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/group-comments-irozysk.jpg",
         "url": "https://t.me/comments_irozysk"
+    },
+    {
+        "id": "website-irozysk",
+        "name": "Интернет-Розыск",
+        "type": "website",
+        "links": [],
+        "imageUrl": "static/logo/website-irozysk.png",
+        "url": "https://интернет-розыск.рф"
     },
     {
         "id": "user-tomhunter",
@@ -929,5 +939,32 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/twitter-alukatsky.jpg",
         "url": "https://alukatsky.ru"
+    },
+    {
+        "id": "user-romachev",
+        "name": "Roman Romachev",
+        "type": "user",
+        "links": [
+            "channel-rtechnocom",
+            "website-rtechno"
+        ],
+        "imageUrl": "static/logo/user-romachev.jpg",
+        "url": "https://t.me/romachev"
+    },
+    {
+        "id": "channel-rtechnocom",
+        "name": "Сводки частной разведки",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-rtechnocom.jpg",
+        "url": "https://t.me/rtechnocom"
+    },
+    {
+        "id": "website-rtechno",
+        "name": "r-techno",
+        "type": "website",
+        "links": [],
+        "imageUrl": "static/logo/website-rtechno.png",
+        "url": "https://r-techo.com"
     }
 ];

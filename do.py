@@ -49,18 +49,26 @@ def action_getlogo(username, gid, html=None):
 
 
 def action_add(node_type, username, gid):
-    assert node_type in ['user', 'channel', 'group']
-    html = get_tme_page(username)
-    name = unescape(RE_TME_TITLE.search(html).group(1))
-    print("NAME:", name)
-    logo_path = action_getlogo(username, gid, html=html)
+    assert node_type in [
+        'user', 'channel', 'group',
+        'website', 'twitter', 'youtube'
+    ]
+    if node_type in ['user', 'channel', 'group']:
+        html = get_tme_page(username)
+        name = unescape(RE_TME_TITLE.search(html).group(1))
+        logo_path = action_getlogo(username, gid, html=html)
+        url = build_tme_url(username)
+    else:
+        name = ""
+        logo_path = "static/logo/user.jpg"
+        url = ""
     item = {
         'id': gid,
         'name': name,
         'type': node_type,
         'links': [],
         'imageUrl': logo_path,
-        'url': build_tme_url(username),
+        'url': url,
     }
     with open(NODES_JSON_FILE) as inp:
         data = json.load(inp)
