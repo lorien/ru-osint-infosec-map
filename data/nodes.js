@@ -285,6 +285,7 @@ dataNodes = [
         "type": "user",
         "links": [
             "channel-irozysk",
+            "group-comments-irozysk",
         ],
         "imageUrl": "static/logo/user.jpg",
         "url": null,
@@ -294,9 +295,19 @@ dataNodes = [
         "name": "Интернет-Розыск",
         "type": "channel",
         "links": [
+            "group-comments-irozysk",
         ],
         "imageUrl": "static/logo/channel-irozysk.jpg",
         "url": "https://t.me/irozysk",
+    },
+    {
+        "id": "group-comments-irozysk",
+        "name": "ЯМы OSINT",
+        "type": "group",
+        "links": [
+        ],
+        "imageUrl": "static/logo/group-comments-irozysk.jpg",
+        "url": "https://t.me/comments_irozysk",
     },
     {
         "id": "user-tomhunter",
