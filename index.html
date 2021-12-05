@@ -3,14 +3,21 @@
     <meta charset="utf-8"/>
     <script src="static/js/vivagraph.min.js"></script>
     <script src="static/js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="static/css/gh-fork-ribbon.min.css" />
     <style>
         html, body, svg, #box {
+            padding: 0;
+            margin: 0;
             width: 100%;
             height: 100%;
+        }
+        .github-fork-ribbon:before {
+            background-color: #333;
         }
     </style>
 </head>
 <body>
+<a class="github-fork-ribbon" href="https://github.com/tgscan/ru-osint-infosec-map" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
 <div id="box"></div>
 <script src="static/data/nodes.js"></script>
 <script>
