@@ -28,7 +28,9 @@ function formatTgAnchor(url) {
             var ret = url.replace(/https:\/\/t.me\//, '');
             ret = '@' + ret;
         } else {
-            var ret = url.replace(/https:\/\//, '');
+            var ret = url
+                .replace(/https:\/\//, '')
+                .replace(/^www\./, '');
         }
         return ret;
     } else {

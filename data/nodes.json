@@ -36,7 +36,8 @@
             "user-masalovich",
             "user-itscrt",
             "user-zeroday",
-            "user-over"
+            "user-over",
+            "user-alukatsk"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -883,5 +884,50 @@
         "links": [],
         "imageUrl": "static/logo/channel-overlamer1.jpg",
         "url": "https://t.me/overlamer1"
+    },
+    {
+        "id": "user-alukatsk",
+        "name": "Alexey Lukatsky",
+        "type": "user",
+        "links": [
+            "channel-alukatsky",
+            "youtube-lukatsky",
+            "website-lukatsky",
+            "twitter-alukatsky"
+        ],
+        "imageUrl": "static/logo/user-alukatsk.jpg",
+        "url": "https://t.me/alukatsk"
+    },
+    {
+        "id": "channel-alukatsky",
+        "name": "Пост Лукацкого",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-alukatsky.jpg",
+        "url": "https://t.me/alukatsky"
+    },
+    {
+        "id": "youtube-lukatsky",
+        "name": "Alexey Lukatsky",
+        "type": "youtube",
+        "links": [],
+        "imageUrl": "static/logo/youtube-lukatsky.jpg",
+        "url": "https://www.youtube.com/user/Lukatsky"
+    },
+    {
+        "id": "website-lukatsky",
+        "name": "Бизнес без опасности",
+        "type": "website",
+        "links": [],
+        "imageUrl": "static/logo/website-lukatsky.jpg",
+        "url": "https://lukatsky.ru"
+    },
+    {
+        "id": "twitter-alukatsky",
+        "name": "Alexey Lukatsky",
+        "type": "twitter",
+        "links": [],
+        "imageUrl": "static/logo/twitter-alukatsky.jpg",
+        "url": "https://alukatsky.ru"
     }
 ]
