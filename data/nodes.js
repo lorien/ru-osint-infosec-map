@@ -29,23 +29,11 @@ dataNodes = [
         "type": "user",
         "name": "madspectator",
         "links": [
-            "channel-grablab-osint-news",
             "channel-grablab-osint-news-ru",
-            "group-grablab-osint",
             "group-grablab-osint-ru"
         ],
         "imageUrl": "static/logo/user.jpg",
         "url": "https://t.me/madspectator"
-    },
-    {
-        "id": "channel-grablab-osint-news",
-        "name": "GrabLab OSINT News",
-        "type": "channel",
-        "links": [
-            "group-grablab-osint"
-        ],
-        "imageUrl": "static/logo/group-grablab-osint-news.jpg",
-        "url": "https://t.me/grablab_osint_news"
     },
     {
         "id": "channel-grablab-osint-news-ru",
@@ -56,14 +44,6 @@ dataNodes = [
         ],
         "imageUrl": "static/logo/group-grablab-osint-news-ru.jpg",
         "url": "https://t.me/grablab_osint_news_ru"
-    },
-    {
-        "id": "group-grablab-osint",
-        "name": "GrabLab OSINT Chat",
-        "type": "group",
-        "links": [],
-        "imageUrl": "static/logo/group-grablab-osint.jpg",
-        "url": "https://t.me/grablab_osint"
     },
     {
         "id": "group-grablab-osint-ru",
