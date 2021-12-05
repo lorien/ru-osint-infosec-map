@@ -12,7 +12,7 @@
 </head>
 <body>
 <div id="box"></div>
-<script src="data/nodes.js"></script>
+<script src="static/data/nodes.js"></script>
 <script>
 function formatTgAnchor(url) {
     var isTme = url && url.indexOf('t.me') > -1;
@@ -93,16 +93,6 @@ function render(nodes) {
     });
     renderer.run();
 }
-/*
-$.get({
-    url: 'data/nodes.json',
-    data: {},
-    success: (resData) => {
-        render(resData);
-    },
-    dataType: 'json'
-});
-*/
 render(dataNodes);
 </script>
 </body>

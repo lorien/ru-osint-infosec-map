@@ -20,9 +20,10 @@ dataNodes = [
             "user-beholderishere",
             "user-ashotog",
             "user-cyb-detective",
+            "user-routerscan"
         ],
         "imageUrl": "static/logo/scope-house.png",
-        "url": "https://github.com/lorien/ru-osint-infosec",
+        "url": "https://github.com/lorien/ru-osint-infosec"
     },
     {
         "id": "user-madspectator",
@@ -32,7 +33,8 @@ dataNodes = [
             "channel-grablab-osint-news",
             "channel-grablab-osint-news-ru",
             "group-grablab-osint",
-            "group-grablab-osint-ru"
+            "group-grablab-osint-ru",
+            "github-lorien"
         ],
         "imageUrl": "static/logo/user.jpg",
         "url": "https://t.me/madspectator"
@@ -74,13 +76,21 @@ dataNodes = [
         "url": "https://t.me/grablab_osint_ru"
     },
     {
+        "id": "github-lorien",
+        "name": "lorien",
+        "type": "github",
+        "links": [],
+        "imageUrl": "static/logo/github.png",
+        "url": "https://github.com/lorien"
+    },
+    {
         "id": "user-agent-noreply",
         "name": "Agent",
         "type": "user",
         "links": [
             "group-howtofind-chat",
             "channel-howtofind",
-            "channel-howtofind-ru",
+            "channel-howtofind-ru"
         ],
         "imageUrl": "static/logo/user-agent-noreply.jpg",
         "url": "https://t.me/agent_noreply"
@@ -117,6 +127,7 @@ dataNodes = [
         "type": "user",
         "links": [
             "channel-osint-mindset",
+            "github-soxoj"
         ],
         "imageUrl": "static/logo/user-soxoj.jpg",
         "url": "https://t.me/soxoj"
@@ -125,10 +136,17 @@ dataNodes = [
         "id": "channel-osint-mindset",
         "name": "OSINT mindset",
         "type": "channel",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/channel-osint-mindset.jpg",
         "url": "https://t.me/osint_mindset"
+    },
+    {
+        "id": "github-soxoj",
+        "name": "soxoj",
+        "type": "github",
+        "links": [],
+        "imageUrl": "static/logo/user-soxoj.jpg",
+        "url": "https://github.com/soxoj"
     },
     {
         "id": "user-denis-wagner",
@@ -137,17 +155,17 @@ dataNodes = [
         "links": [
             "channel-osint-rf-lib",
             "group-osint-rf",
-            "group-osint-search",
+            "group-osint-search"
         ],
         "imageUrl": "static/logo/user-denis-wagner.jpg",
-        "url": null,
+        "url": null
     },
     {
         "id": "channel-osint-rf-lib",
         "name": "Библиотека цифровой разведки - OSINT",
         "type": "channel",
         "links": [
-            "group-osint-rf",
+            "group-osint-rf"
         ],
         "imageUrl": "static/logo/channel-osint-rf-lib.jpg",
         "url": "https://t.me/osint_rf_lib"
@@ -156,8 +174,7 @@ dataNodes = [
         "id": "group-osint-rf",
         "name": "OSINT | Сетевая разведка и поиск | Цифровая криминалистика | Forensic | Netstalking",
         "type": "group",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/group-osint-rf.jpg",
         "url": "https://t.me/osint_rf"
     },
@@ -165,8 +182,7 @@ dataNodes = [
         "id": "group-osint-search",
         "name": "OSINT | Поиск людей | Розыск преступников | Интернет-расследования",
         "type": "group",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/group-osint-search.jpg",
         "url": "https://t.me/osint_search"
     },
@@ -176,29 +192,28 @@ dataNodes = [
         "type": "user",
         "links": [
             "channel-cyberyozh-official",
-            "group-cyberyozhtalks",
+            "group-cyberyozhtalks"
         ],
         "imageUrl": "static/logo/user.jpg",
-        "url": null,
+        "url": null
     },
     {
         "id": "channel-cyberyozh-official",
         "name": "CyberYozh",
         "type": "channel",
         "links": [
-            "group-cyberyozhtalks",
+            "group-cyberyozhtalks"
         ],
         "imageUrl": "static/logo/channel-cyberyozh-official.jpg",
-        "url": "https://t.me/cyberyozh_official",
+        "url": "https://t.me/cyberyozh_official"
     },
     {
         "id": "group-cyberyozhtalks",
         "name": "CyberYozh Talks",
         "type": "group",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/group-cyberyozhtalks.jpg",
-        "url": "https://t.me/cyberyozhtalks",
+        "url": "https://t.me/cyberyozhtalks"
     },
     {
         "id": "user-gspdnsobaka",
@@ -206,10 +221,10 @@ dataNodes = [
         "type": "user",
         "links": [
             "channel-osint-club-channel",
-            "group-osint-club",
+            "group-osint-club"
         ],
         "imageUrl": "static/logo/user-gspdnsobaka.jpg",
-        "url": "https://t.me/gspdnsobaka",
+        "url": "https://t.me/gspdnsobaka"
     },
     {
         "id": "user-jsdio",
@@ -217,67 +232,64 @@ dataNodes = [
         "type": "user",
         "links": [
             "channel-osint-club-channel",
-            "group-osint-club",
+            "group-osint-club"
         ],
         "imageUrl": "static/logo/user-jsdio.jpg",
-        "url": "https://t.me/jsdio",
+        "url": "https://t.me/jsdio"
     },
     {
         "id": "group-osint-club",
         "name": "OSINT Club",
         "type": "group",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/group-osint-club.jpg",
-        "url": "https://t.me/osint_club",
+        "url": "https://t.me/osint_club"
     },
     {
         "id": "channel-osint-club-channel",
         "name": "OSINT CLUB",
         "type": "channel",
         "links": [
-            "group-osint-club",
+            "group-osint-club"
         ],
         "imageUrl": "static/logo/channel-osint-club-channel.jpg",
-        "url": "https://t.me/osint_club_channel",
+        "url": "https://t.me/osint_club_channel"
     },
     {
         "id": "channel-b4tr-channel",
         "name": "b4tr_channel",
         "type": "channel",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/channel-b4tr-channel.jpg",
-        "url": "https://t.me/b4tr_channel",
+        "url": "https://t.me/b4tr_channel"
     },
     {
         "id": "user-followmebla",
         "name": "Follow me!",
         "type": "user",
         "links": [
-            "channel-b4tr-channel",
+            "channel-b4tr-channel"
         ],
         "imageUrl": "static/logo/user.jpg",
-        "url": "https://t.me/followmebla",
+        "url": "https://t.me/followmebla"
     },
     {
         "id": "user-alexmaknet",
         "name": "Error retrieving username",
         "type": "user",
         "links": [
-            "channel-alexmakus",
+            "channel-alexmakus"
         ],
         "imageUrl": "static/logo/user-alexmaknet.jpg",
-        "url": "https://t.me/alexmaknet",
+        "url": "https://t.me/alexmaknet"
     },
     {
         "id": "channel-alexmakus",
         "name": "Информация опасносте",
         "type": "channel",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/channel-alexmakus.jpg",
-        "url": "https://t.me/alexmakus",
+        "url": "https://t.me/alexmakus"
     },
     {
         "id": "user-irozysk",
@@ -285,67 +297,64 @@ dataNodes = [
         "type": "user",
         "links": [
             "channel-irozysk",
-            "group-comments-irozysk",
+            "group-comments-irozysk"
         ],
         "imageUrl": "static/logo/user.jpg",
-        "url": null,
+        "url": null
     },
     {
         "id": "channel-irozysk",
         "name": "Интернет-Розыск",
         "type": "channel",
         "links": [
-            "group-comments-irozysk",
+            "group-comments-irozysk"
         ],
         "imageUrl": "static/logo/channel-irozysk.jpg",
-        "url": "https://t.me/irozysk",
+        "url": "https://t.me/irozysk"
     },
     {
         "id": "group-comments-irozysk",
         "name": "ЯМы OSINT",
         "type": "group",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/group-comments-irozysk.jpg",
-        "url": "https://t.me/comments_irozysk",
+        "url": "https://t.me/comments_irozysk"
     },
     {
         "id": "user-tomhunter",
         "name": "Tom Hunter",
         "type": "user",
         "links": [
-            "channel-tomhunter",
+            "channel-tomhunter"
         ],
         "imageUrl": "static/logo/user.jpg",
-        "url": null,
+        "url": null
     },
     {
         "id": "channel-tomhunter",
         "name": "T.Hunter",
         "type": "channel",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/channel-tomhunter.jpg",
-        "url": "https://t.me/tomhunter",
+        "url": "https://t.me/tomhunter"
     },
     {
         "id": "user-gijnru",
         "name": "???",
         "type": "user",
         "links": [
-            "channel-gijnru",
+            "channel-gijnru"
         ],
         "imageUrl": "static/logo/user.jpg",
-        "url": null,
+        "url": null
     },
     {
         "id": "channel-gijnru",
         "name": "Глобальная сеть журналистов-расследователей",
         "type": "channel",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/channel-gijnru.jpg",
-        "url": "https://t.me/gijnru",
+        "url": "https://t.me/gijnru"
     },
     {
         "id": "user-r3dhunt",
@@ -353,29 +362,28 @@ dataNodes = [
         "type": "user",
         "links": [
             "channel-russian-osint",
-            "youtube-russianosint",
+            "youtube-russianosint"
         ],
         "imageUrl": "static/logo/user-r3dhunt.jpg",
-        "url": "https://t.me/r3dhunt",
+        "url": "https://t.me/r3dhunt"
     },
     {
         "id": "channel-russian-osint",
         "name": "Russian OSINT",
         "type": "channel",
         "links": [
-            "youtube-russianosint",
+            "youtube-russianosint"
         ],
         "imageUrl": "static/logo/channel-russian-osint.jpg",
-        "url": "https://t.me/russian_osint",
+        "url": "https://t.me/russian_osint"
     },
     {
         "id": "youtube-russianosint",
         "name": "Russian OSINT",
         "type": "youtube",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/channel-russian-osint.jpg",
-        "url": "https://youtube.com/c/RussianOSINT",
+        "url": "https://youtube.com/c/RussianOSINT"
     },
     {
         "id": "user-beholderishere",
@@ -384,75 +392,89 @@ dataNodes = [
         "links": [
             "channel-forensictools",
             "group-forensictoolslive",
-            "channel-netsurvivalist",
+            "channel-netsurvivalist"
         ],
         "imageUrl": "static/logo/user-beholderishere.jpg",
-        "url": "https://t.me/beholderishere",
+        "url": "https://t.me/beholderishere"
     },
     {
         "id": "channel-forensictools",
         "name": "Investigation&Forensic Tools",
         "type": "channel",
         "links": [
-            "group-forensictoolslive",
+            "group-forensictoolslive"
         ],
         "imageUrl": "static/logo/channel-forensictools.jpg",
-        "url": "https://t.me/forensictools",
+        "url": "https://t.me/forensictools"
     },
     {
         "id": "group-forensictoolslive",
         "name": "Investigation&Forensic Tools Live",
         "type": "group",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/group-forensictoolslive.jpg",
-        "url": "https://t.me/forensictoolslive",
+        "url": "https://t.me/forensictoolslive"
     },
     {
         "id": "channel-netsurvivalist",
         "name": "Net Survivalist",
         "type": "channel",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/channel-netsurvivalist.jpg",
-        "url": "https://t.me/netsurvivalist",
+        "url": "https://t.me/netsurvivalist"
     },
     {
         "id": "user-ashotog",
         "name": "Ashot Oganesyan",
         "type": "user",
         "links": [
-            "channel-dataleak",
+            "channel-dataleak"
         ],
         "imageUrl": "static/logo/user-ashotog.jpg",
-        "url": "https://t.me/ashotog",
+        "url": "https://t.me/ashotog"
     },
     {
         "id": "channel-dataleak",
         "name": "Investigation&Forensic Tools",
         "type": "channel",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/channel-dataleak.jpg",
-        "url": "https://t.me/dataleak",
+        "url": "https://t.me/dataleak"
     },
     {
         "id": "user-cyb-detective",
         "name": "Stranger",
         "type": "user",
         "links": [
-            "channel-cybdetective",
+            "channel-cybdetective"
         ],
         "imageUrl": "static/logo/user.jpg",
-        "url": "https://t.me/cyb_detective",
+        "url": "https://t.me/cyb_detective"
     },
     {
         "id": "channel-cybdetective",
         "name": "Cyber_detective",
         "type": "channel",
-        "links": [
-        ],
+        "links": [],
         "imageUrl": "static/logo/channel-cybdetective.jpg",
-        "url": "https://t.me/cybdetective",
+        "url": "https://t.me/cybdetective"
     },
+    {
+        "id": "user-routerscan",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-routerscan"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-routerscan",
+        "name": "Router Scan",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-routerscan.jpg",
+        "url": "https://t.me/routerscan"
+    }
 ];
