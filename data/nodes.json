@@ -25,7 +25,9 @@
             "user-begtin",
             "user-pavlovich",
             "user-johnripper",
-            "user-hexuary"
+            "user-hexuary",
+            "user-vektort13",
+            "user-satana666mx"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": "https://github.com/tgscan/ru-osint-infosec-map"
@@ -593,5 +595,91 @@
         "links": [],
         "imageUrl": "static/logo/channel-hashb1n.jpg",
         "url": "https://t.me/hashb1n"
+    },
+    {
+        "id": "user-vektort13",
+        "name": "Vektor (AFK) Support",
+        "type": "user",
+        "links": [
+            "channel-vschannel",
+            "group-antidetectchat",
+            "group-multiacceng",
+            "youtube-vektort13"
+        ],
+        "imageUrl": "static/logo/user-vektort13.jpg",
+        "url": "https://t.me/vektort13"
+    },
+    {
+        "id": "channel-vschannel",
+        "name": "Vektor Security Channel",
+        "type": "channel",
+        "links": [
+            "group-antidetectchat",
+            "youtube-vektort13"
+        ],
+        "imageUrl": "static/logo/channel-vschannel.jpg",
+        "url": "https://t.me/vschannel"
+    },
+    {
+        "id": "group-antidetectchat",
+        "name": "Multiacc party [Russian]",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-antidetectchat.jpg",
+        "url": "https://t.me/antidetectchat"
+    },
+    {
+        "id": "group-multiacceng",
+        "name": "Multiacc party [English]",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-multiacceng.jpg",
+        "url": "https://t.me/multiacceng"
+    },
+    {
+        "id": "youtube-vektort13",
+        "name": "Vektor T13",
+        "type": "youtube",
+        "links": [],
+        "imageUrl": "static/logo/youtube-vektort13.jpg",
+        "url": "https://youtube.com/c/vektort13"
+    },
+    {
+        "id": "user-satana666mx",
+        "name": "Bafomёd. Максим Понамарев",
+        "type": "user",
+        "links": [
+            "channel-osint-san-framework",
+            "group-osint-san",
+            "github-bafomet666"
+        ],
+        "imageUrl": "static/logo/user-satana666mx.jpg",
+        "url": "https://t.me/satana666mx"
+    },
+    {
+        "id": "channel-osint-san-framework",
+        "name": "Bafomёd OSINT",
+        "type": "channel",
+        "links": [
+            "group-osint-san"
+        ],
+        "imageUrl": "static/logo/channel-osint-san-framework.jpg",
+        "url": "https://t.me/osint_san_framework"
+    },
+    {
+        "id": "group-osint-san",
+        "name": "OSINT-SAN",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-osint-san.jpg",
+        "url": "https://t.me/joinchat/4qnEndyYOrdlNmJi"
+    },
+    {
+        "id": "github-bafomet666",
+        "name": "Bafomet666",
+        "type": "github",
+        "links": [],
+        "imageUrl": "static/logo/github-bafomet666.jpg",
+        "url": "https://github.com/bafomet666"
     }
 ]
