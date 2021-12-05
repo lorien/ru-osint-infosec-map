@@ -65,7 +65,11 @@ function render(nodes) {
     graphics.node(function(node) {
         var ui = Viva.Graph.svg('g');
         console.log(node);
-        var capText = '(' + node.data.type[0] + ') ' + node.data.name;
+        if (node.data.name) {
+            var capText = '(' + node.data.type[0] + ') ' + node.data.name;
+        } else {
+            var capText = '';
+        }
         var caption = Viva.Graph.svg('text')
             .attr('y', '12px')
             .attr('x', '38px')

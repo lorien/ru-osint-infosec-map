@@ -2,7 +2,7 @@ dataNodes = [
     {
         "id": "scope-ru-osint-infosec",
         "type": "scope",
-        "name": "RU OSINT InfoSec",
+        "name": "",
         "links": [
             "user-madspectator",
             "user-soxoj",
@@ -37,7 +37,7 @@ dataNodes = [
             "user-itscrt"
         ],
         "imageUrl": "static/logo/scope-house.png",
-        "url": "https://github.com/tgscan/ru-osint-infosec-map"
+        "url": null
     },
     {
         "id": "user-madspectator",
