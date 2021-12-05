@@ -2,7 +2,7 @@
 
 This is just-for-fun online map of Russian OSINT and InfoSecurity resources: authors, telegram channels, telegram groups, youtube channels, etc.
 
-Rendered graph is available here https://grablab.org/ru-osint-infosec/
+Rendered graph is available here https://grablab.org/ru-osint-infosec/ This web page is rendered automatically with github pages engine and is linked to "index.html file in this repository.
 
 Fell free to submit pull requests with new graph items.
 
