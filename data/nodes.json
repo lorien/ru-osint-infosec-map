@@ -34,7 +34,9 @@
             "user-ciartem",
             "user-timohin",
             "user-masalovich",
-            "user-itscrt"
+            "user-itscrt",
+            "user-zeroday",
+            "user-over"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -314,7 +316,7 @@
             "group-comments-irozysk"
         ],
         "imageUrl": "static/logo/user.jpg",
-        "url": null
+        "url": "https://t.me/ibederov"
     },
     {
         "id": "channel-irozysk",
@@ -845,5 +847,41 @@
         "links": [],
         "imageUrl": "static/logo/channel-tg-security.jpg",
         "url": "https://t.me/tg_security"
+    },
+    {
+        "id": "user-zeroday",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-zeroday-spb"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-zeroday-spb",
+        "name": "ZERO-DAY",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-zeroday-spb.jpg",
+        "url": "https://t.me/zeroday_spb"
+    },
+    {
+        "id": "user-over",
+        "name": "Игорь Овер",
+        "type": "user",
+        "links": [
+            "channel-overlamer1"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-overlamer1",
+        "name": "LAMERLAND - overbafer1",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-overlamer1.jpg",
+        "url": "https://t.me/overlamer1"
     }
 ]
