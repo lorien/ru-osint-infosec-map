@@ -6,6 +6,8 @@ Rendered graph is available here https://tgscan.github.io/ru-osint-infosec-map/ 
 
 Fell free to submit pull requests with new graph items.
 
+![Look of osint/infosec graph](static/img/ru-osint-infosec-map.png)
+
 ## How to submit pull request
 
 * Clone repo to your dev machine
