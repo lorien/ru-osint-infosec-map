@@ -12,6 +12,14 @@ dataNodes = [
             "user-gspdnsobaka",
             "user-jsdio",
             "user-followmebla",
+            "user-alexmaknet",
+            "user-irozysk",
+            "user-tomhunter",
+            "user-gijnru",
+            "user-r3dhunt",
+            "user-beholderishere",
+            "user-ashotog",
+            "user-cyb-detective",
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": "https://github.com/lorien/ru-osint-infosec",
@@ -170,7 +178,7 @@ dataNodes = [
             "channel-cyberyozh-official",
             "group-cyberyozhtalks",
         ],
-        "imageUrl": "static/logo/user-cyber-yozh.jpg",
+        "imageUrl": "static/logo/user.jpg",
         "url": null,
     },
     {
@@ -251,5 +259,189 @@ dataNodes = [
         ],
         "imageUrl": "static/logo/user.jpg",
         "url": "https://t.me/followmebla",
+    },
+    {
+        "id": "user-alexmaknet",
+        "name": "Error retrieving username",
+        "type": "user",
+        "links": [
+            "channel-alexmakus",
+        ],
+        "imageUrl": "static/logo/user-alexmaknet.jpg",
+        "url": "https://t.me/alexmaknet",
+    },
+    {
+        "id": "channel-alexmakus",
+        "name": "Информация опасносте",
+        "type": "channel",
+        "links": [
+        ],
+        "imageUrl": "static/logo/channel-alexmakus.jpg",
+        "url": "https://t.me/alexmakus",
+    },
+    {
+        "id": "user-irozysk",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-irozysk",
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null,
+    },
+    {
+        "id": "channel-irozysk",
+        "name": "Интернет-Розыск",
+        "type": "channel",
+        "links": [
+        ],
+        "imageUrl": "static/logo/channel-irozysk.jpg",
+        "url": "https://t.me/irozysk",
+    },
+    {
+        "id": "user-tomhunter",
+        "name": "Tom Hunter",
+        "type": "user",
+        "links": [
+            "channel-tomhunter",
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null,
+    },
+    {
+        "id": "channel-tomhunter",
+        "name": "T.Hunter",
+        "type": "channel",
+        "links": [
+        ],
+        "imageUrl": "static/logo/channel-tomhunter.jpg",
+        "url": "https://t.me/tomhunter",
+    },
+    {
+        "id": "user-gijnru",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-gijnru",
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null,
+    },
+    {
+        "id": "channel-gijnru",
+        "name": "Глобальная сеть журналистов-расследователей",
+        "type": "channel",
+        "links": [
+        ],
+        "imageUrl": "static/logo/channel-gijnru.jpg",
+        "url": "https://t.me/gijnru",
+    },
+    {
+        "id": "user-r3dhunt",
+        "name": "R3dhunt",
+        "type": "user",
+        "links": [
+            "channel-russian-osint",
+            "youtube-russianosint",
+        ],
+        "imageUrl": "static/logo/user-r3dhunt.jpg",
+        "url": "https://t.me/r3dhunt",
+    },
+    {
+        "id": "channel-russian-osint",
+        "name": "Russian OSINT",
+        "type": "channel",
+        "links": [
+            "youtube-russianosint",
+        ],
+        "imageUrl": "static/logo/channel-russian-osint.jpg",
+        "url": "https://t.me/russian_osint",
+    },
+    {
+        "id": "youtube-russianosint",
+        "name": "Russian OSINT",
+        "type": "youtube",
+        "links": [
+        ],
+        "imageUrl": "static/logo/channel-russian-osint.jpg",
+        "url": "https://youtube.com/c/RussianOSINT",
+    },
+    {
+        "id": "user-beholderishere",
+        "name": "Beholder Is Here",
+        "type": "user",
+        "links": [
+            "channel-forensictools",
+            "group-forensictoolslive",
+            "channel-netsurvivalist",
+        ],
+        "imageUrl": "static/logo/user-beholderishere.jpg",
+        "url": "https://t.me/beholderishere",
+    },
+    {
+        "id": "channel-forensictools",
+        "name": "Investigation&Forensic Tools",
+        "type": "channel",
+        "links": [
+            "group-forensictoolslive",
+        ],
+        "imageUrl": "static/logo/channel-forensictools.jpg",
+        "url": "https://t.me/forensictools",
+    },
+    {
+        "id": "group-forensictoolslive",
+        "name": "Investigation&Forensic Tools Live",
+        "type": "group",
+        "links": [
+        ],
+        "imageUrl": "static/logo/group-forensictoolslive.jpg",
+        "url": "https://t.me/forensictoolslive",
+    },
+    {
+        "id": "channel-netsurvivalist",
+        "name": "Net Survivalist",
+        "type": "channel",
+        "links": [
+        ],
+        "imageUrl": "static/logo/channel-netsurvivalist.jpg",
+        "url": "https://t.me/netsurvivalist",
+    },
+    {
+        "id": "user-ashotog",
+        "name": "Ashot Oganesyan",
+        "type": "user",
+        "links": [
+            "channel-dataleak",
+        ],
+        "imageUrl": "static/logo/user-ashotog.jpg",
+        "url": "https://t.me/ashotog",
+    },
+    {
+        "id": "channel-dataleak",
+        "name": "Investigation&Forensic Tools",
+        "type": "channel",
+        "links": [
+        ],
+        "imageUrl": "static/logo/channel-dataleak.jpg",
+        "url": "https://t.me/dataleak",
+    },
+    {
+        "id": "user-cyb-detective",
+        "name": "Stranger",
+        "type": "user",
+        "links": [
+            "channel-cybdetective",
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": "https://t.me/cyb_detective",
+    },
+    {
+        "id": "channel-cybdetective",
+        "name": "Cyber_detective",
+        "type": "channel",
+        "links": [
+        ],
+        "imageUrl": "static/logo/channel-cybdetective.jpg",
+        "url": "https://t.me/cybdetective",
     },
 ];

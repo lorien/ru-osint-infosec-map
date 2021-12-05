@@ -32,9 +32,9 @@ function formatTgAnchor(url) {
 function render(nodes) {
     var graph = Viva.Graph.graph();
     var layout = Viva.Graph.Layout.forceDirected(graph, {
-        springLength : 120,
+        springLength : 150,
         //dragCoeff : 0.02,
-        gravity : -15,
+        gravity : -40,
         //theta: 0.8,
         springCoeff : 0.0005,
     });
