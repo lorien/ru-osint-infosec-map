@@ -23,7 +23,9 @@ dataNodes = [
             "user-routerscan",
             "user-antipovevgenii",
             "user-begtin",
-            "user-pavlovich"
+            "user-pavlovich",
+            "user-johnripper",
+            "user-hexuary"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": "https://github.com/tgscan/ru-osint-infosec-map"
@@ -555,5 +557,41 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/youtube-peoplepro.jpg",
         "url": "https://www.youtube.com/peoplepro"
+    },
+    {
+        "id": "user-johnripper",
+        "name": "John",
+        "type": "user",
+        "links": [
+            "channel-data1eaks"
+        ],
+        "imageUrl": "static/logo/user-johnripper.jpg",
+        "url": "https://t.me/j0hnr1pp3r"
+    },
+    {
+        "id": "channel-data1eaks",
+        "name": "Data1eaks | Утечки баз данных",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-data1eaks.jpg",
+        "url": "https://t.me/data1eaks"
+    },
+    {
+        "id": "user-hexuary",
+        "name": "BIN",
+        "type": "user",
+        "links": [
+            "channel-hashb1n"
+        ],
+        "imageUrl": "static/logo/user-hexuary.jpg",
+        "url": "https://t.me/hexuary"
+    },
+    {
+        "id": "channel-hashb1n",
+        "name": "bin",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-hashb1n.jpg",
+        "url": "https://t.me/hashb1n"
     }
 ];
