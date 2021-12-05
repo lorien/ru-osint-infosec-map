@@ -6,6 +6,7 @@ from urllib.request import urlopen
 import sys
 import re
 import shutil
+from html import unescape
 
 RE_TME_IMG_URL = re.compile(
     r'<img class="tgme_page_photo_image" src="(.+)"'
@@ -50,7 +51,8 @@ def action_getlogo(username, gid, html=None):
 def action_add(node_type, username, gid):
     assert node_type in ['user', 'channel', 'group']
     html = get_tme_page(username)
-    name = RE_TME_TITLE.search(html).group(1)
+    name = unescape(RE_TME_TITLE.search(html).group(1))
+    print("NAME:", name)
     logo_path = action_getlogo(username, gid, html=html)
     item = {
         'id': gid,

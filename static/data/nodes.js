@@ -33,7 +33,8 @@ dataNodes = [
             "user-dstoun",
             "user-ciartem",
             "user-timohin",
-            "user-masalovich"
+            "user-masalovich",
+            "user-itscrt"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": "https://github.com/tgscan/ru-osint-infosec-map"
@@ -826,5 +827,23 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/youtube-kiberded.jpg",
         "url": "https://www.youtube.com/c/KiberDed"
+    },
+    {
+        "id": "user-itscrt",
+        "name": "Админка IT&FCK RKN",
+        "type": "user",
+        "links": [
+            "channel-tg-security"
+        ],
+        "imageUrl": "static/logo/user-itscrt.jpg",
+        "url": "https://t.me/it_scrt"
+    },
+    {
+        "id": "channel-tg-security",
+        "name": "IT&Безопасность",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-tg-security.jpg",
+        "url": "https://t.me/tg_security"
     }
 ];
