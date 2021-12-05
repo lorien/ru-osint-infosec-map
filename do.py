@@ -65,7 +65,7 @@ def action_addnode(node_type, username, gid):
     print('Loaded %d items from JSON file' % len(data))
     if node_type == 'user':
         for node in data:
-            if node['id'] == 'ID_ROOT_NODE':
+            if node['id'] == ID_ROOT_NODE:
                 if not gid in node['links']:
                     node['links'].append(gid)
     data.append(item)

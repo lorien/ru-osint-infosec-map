@@ -13,14 +13,17 @@ dataNodes = [
             "user-jsdio",
             "user-followmebla",
             "user-alexmaknet",
-            "user-irozysk",
+            "user-bederov",
             "user-tomhunter",
             "user-gijnru",
             "user-r3dhunt",
             "user-beholderishere",
             "user-ashotog",
             "user-cyb-detective",
-            "user-routerscan"
+            "user-routerscan",
+            "user-antipovevgenii",
+            "user-begtin",
+            "user-pavlovich"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": "https://github.com/lorien/ru-osint-infosec"
@@ -292,8 +295,8 @@ dataNodes = [
         "url": "https://t.me/alexmakus"
     },
     {
-        "id": "user-irozysk",
-        "name": "???",
+        "id": "user-bederov",
+        "name": "Игорь Бедеров",
         "type": "user",
         "links": [
             "channel-irozysk",
@@ -476,5 +479,81 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/channel-routerscan.jpg",
         "url": "https://t.me/routerscan"
+    },
+    {
+        "id": "user-antipovevgenii",
+        "name": "Евгений Антипов",
+        "type": "user",
+        "links": [
+            "channel-antipov"
+        ],
+        "imageUrl": "static/logo/user-antipovevgenii.jpg",
+        "url": "https://t.me/AntipovEvgenii"
+    },
+    {
+        "id": "channel-antipov",
+        "name": "Antipov",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-antipov.jpg",
+        "url": "https://t.me/antipov"
+    },
+    {
+        "id": "user-begtin",
+        "name": "Иван Бегтин",
+        "type": "user",
+        "links": [
+            "channel-begtin",
+            "group-begtinchat"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-begtin",
+        "name": "Ivan Begtin",
+        "type": "channel",
+        "links": [
+            "group-begtinchat"
+        ],
+        "imageUrl": "static/logo/channel-begtin.jpg",
+        "url": "https://t.me/begtin"
+    },
+    {
+        "id": "group-begtinchat",
+        "name": "Чат к каналу @begtin",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-begtinchat.jpg",
+        "url": "https://t.me/begtinchat"
+    },
+    {
+        "id": "user-pavlovich",
+        "name": "Сергей Павлович",
+        "type": "user",
+        "links": [
+            "channel-people-pro-main",
+            "youtube-peoplepro"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-people-pro-main",
+        "name": "Люди PRO",
+        "type": "channel",
+        "links": [
+            "youtube-peoplepro"
+        ],
+        "imageUrl": "static/logo/channel-people-pro-main.jpg",
+        "url": "https://t.me/people_pro_main"
+    },
+    {
+        "id": "youtube-peoplepro",
+        "name": "Люди PRO",
+        "type": "youtube",
+        "links": [],
+        "imageUrl": "static/logo/youtube-peoplepro.jpg",
+        "url": "https://www.youtube.com/peoplepro"
     }
 ];
