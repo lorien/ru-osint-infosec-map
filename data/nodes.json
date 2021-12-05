@@ -27,7 +27,13 @@
             "user-johnripper",
             "user-hexuary",
             "user-vektort13",
-            "user-satana666mx"
+            "user-satana666mx",
+            "org-elcomsoft",
+            "user-osintby",
+            "user-dstoun",
+            "user-ciartem",
+            "user-timohin",
+            "user-masalovich"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": "https://github.com/tgscan/ru-osint-infosec-map"
@@ -681,5 +687,144 @@
         "links": [],
         "imageUrl": "static/logo/github-bafomet666.jpg",
         "url": "https://github.com/bafomet666"
+    },
+    {
+        "id": "org-elcomsoft",
+        "name": "Elcomsoft",
+        "type": "org",
+        "links": [
+            "channel-elcomsoftru",
+            "channel-elcomsoft"
+        ],
+        "imageUrl": "static/logo/org-elcomsoft.jpg",
+        "url": "https://www.elcomsoft.ru"
+    },
+    {
+        "id": "channel-elcomsoftru",
+        "name": "Elcomsoft RU",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-elcomsoftru.jpg",
+        "url": "https://t.me/elcomsoftru"
+    },
+    {
+        "id": "channel-elcomsoft",
+        "name": "Elcomsoft",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-elcomsoft.jpg",
+        "url": "https://t.me/elcomsoft"
+    },
+    {
+        "id": "user-osintby",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-osintby",
+            "group-osintby-chat"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-osintby",
+        "name": "OSINT Беларусь",
+        "type": "channel",
+        "links": [
+            "group-osintby-chat"
+        ],
+        "imageUrl": "static/logo/channel-osintby.jpg",
+        "url": "https://t.me/osintby"
+    },
+    {
+        "id": "group-osintby-chat",
+        "name": "OSINT Беларусь Чат",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-osintby-chat.jpg",
+        "url": "https://t.me/osintby_chat"
+    },
+    {
+        "id": "user-dstoun",
+        "name": "D.Stoun",
+        "type": "user",
+        "links": [
+            "channel-pulsechanel"
+        ],
+        "imageUrl": "static/logo/user-dstoun.jpg",
+        "url": "https://t.me/dstoun"
+    },
+    {
+        "id": "channel-pulsechanel",
+        "name": "PulSe",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-pulsechanel.jpg",
+        "url": "https://t.me/pulsechanel"
+    },
+    {
+        "id": "user-ciartem",
+        "name": "AS",
+        "type": "user",
+        "links": [
+            "channel-molfar-bi"
+        ],
+        "imageUrl": "static/logo/user-ciartem.jpg",
+        "url": "https://t.me/ciartem"
+    },
+    {
+        "id": "channel-molfar-bi",
+        "name": "Molfar об OSINT",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-molfar-bi.jpg",
+        "url": "https://t.me/molfar_bi"
+    },
+    {
+        "id": "user-timohin",
+        "name": "Александр Тимохин",
+        "type": "user",
+        "links": [
+            "channel-rosint-info"
+        ],
+        "imageUrl": "static/logo/channel-rosint-info.jpg",
+        "url": "https://t.me/rosint_info"
+    },
+    {
+        "id": "channel-rosint-info",
+        "name": "ROSINT: Интернет-разведка с человеческим лицом",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-rosint-info.jpg",
+        "url": "https://t.me/rosint_info"
+    },
+    {
+        "id": "user-masalovich",
+        "name": "Андрей Масалович",
+        "type": "user",
+        "links": [
+            "channel-maspartners",
+            "youtube-kiberded"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-maspartners",
+        "name": "Масалович и партнеры: OSINT",
+        "type": "channel",
+        "links": [
+            "youtube-kiberded"
+        ],
+        "imageUrl": "static/logo/channel-maspartners.jpg",
+        "url": "https://t.me/maspartners"
+    },
+    {
+        "id": "youtube-kiberded",
+        "name": "КиберДед",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/youtube-kiberded.jpg",
+        "url": "https://www.youtube.com/c/KiberDed"
     }
 ]

@@ -47,7 +47,7 @@ def action_getlogo(username, gid, html=None):
     return logo_path
 
 
-def action_addnode(node_type, username, gid):
+def action_add(node_type, username, gid):
     assert node_type in ['user', 'channel', 'group']
     html = get_tme_page(username)
     name = RE_TME_TITLE.search(html).group(1)
@@ -92,11 +92,11 @@ def main(**kwargs):
         username = sys.argv[2]
         gid = sys.argv[3]
         action_getlogo(username, gid)
-    elif action == 'addnode':
+    elif action == 'add':
         node_type = sys.argv[2]
         username = sys.argv[3]
         gid = sys.argv[4]
-        action_addnode(node_type, username, gid)
+        action_add(node_type, username, gid)
     elif action == 'compile':
         action_compile()
     else:
