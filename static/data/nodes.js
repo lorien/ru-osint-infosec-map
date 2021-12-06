@@ -39,7 +39,9 @@ dataNodes = [
             "user-over",
             "user-alukatsk",
             "user-romachev",
-            "user-freedomf0x"
+            "user-freedomf0x",
+            "user-webpwnchat",
+            "user-codeby"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -985,5 +987,50 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/channel-freedomf0x.jpg",
         "url": "https://t.me/freedomf0x"
+    },
+    {
+        "id": "user-webpwnchat",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "group-webpwnchat"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "group-webpwnchat",
+        "name": "WebPwnChat",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-webpwnchat.jpg",
+        "url": "https://t.me/webpwnchat"
+    },
+    {
+        "id": "user-codeby",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "group-thecodeby",
+            "channel-codeby-sec"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-codeby-sec",
+        "name": "Codeby Pentest",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-codeby-sec.jpg",
+        "url": "https://t.me/codeby_sec"
+    },
+    {
+        "id": "group-thecodeby",
+        "name": "The Codeby",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-thecodeby.jpg",
+        "url": "https://t.me/thecodeby"
     }
 ];
