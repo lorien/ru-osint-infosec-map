@@ -68,7 +68,11 @@ function render(nodes) {
         var ui = Viva.Graph.svg('g');
         console.log(node);
         if (node.data.name) {
-            var capText = '(' + node.data.type[0] + ') ' + node.data.name;
+            if (node.data.type == "user") {
+                var capText = node.data.name;
+            } else {
+                var capText = '(' + node.data.type[0] + ') ' + node.data.name;
+            }
         } else {
             var capText = '';
         }
@@ -81,10 +85,15 @@ function render(nodes) {
             .attr('x', '38px')
             .attr('fill', 'blue')
             .text(formatTgAnchor(node.data.url));
+        if (node.data.type == "user") {
+            imageUrl = "static/logo/user.jpg";
+        } else {
+            imageUrl = node.data.imageUrl;
+        }
         var img = Viva.Graph.svg('image')
              .attr('width', 32)
              .attr('height', 32)
-             .link(node.data.imageUrl);
+             .link(imageUrl);
         ui.append(img);
         ui.append(caption);
         ui.append(link);
