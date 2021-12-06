@@ -38,7 +38,8 @@
             "user-zeroday",
             "user-over",
             "user-alukatsk",
-            "user-romachev"
+            "user-romachev",
+            "user-freedomf0x"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -966,5 +967,23 @@
         "links": [],
         "imageUrl": "static/logo/website-rtechno.png",
         "url": "https://r-techo.com"
+    },
+    {
+        "id": "user-freedomf0x",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-freedomf0x"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-freedomf0x",
+        "name": "Freedom F0x",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-freedomf0x.jpg",
+        "url": "https://t.me/freedomf0x"
     }
 ]
