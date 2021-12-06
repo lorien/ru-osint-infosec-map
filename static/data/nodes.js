@@ -41,7 +41,8 @@ dataNodes = [
             "user-romachev",
             "user-freedomf0x",
             "user-webpwnchat",
-            "user-codeby"
+            "user-codeby",
+            "user-cybred"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -1032,5 +1033,23 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/group-thecodeby.jpg",
         "url": "https://t.me/thecodeby"
+    },
+    {
+        "id": "user-cybred",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-cybred"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": "https://t.me/moodytalk_bot"
+    },
+    {
+        "id": "channel-cybred",
+        "name": "Cybred",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-cybred.jpg",
+        "url": "https://t.me/cybred"
     }
 ];
