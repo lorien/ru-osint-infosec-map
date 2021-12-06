@@ -20,7 +20,7 @@
             "user-beholderishere",
             "user-ashotog",
             "user-cyb-detective",
-            "user-routerscan",
+            "user-x86corez",
             "user-antipovevgenii",
             "user-begtin",
             "user-pavlovich",
@@ -40,9 +40,10 @@
             "user-alukatsk",
             "user-romachev",
             "user-freedomf0x",
-            "user-webpwnchat",
+            "user-ibooom",
             "user-codeby",
-            "user-cybred"
+            "user-cybred",
+            "user-true-secator"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -491,14 +492,14 @@
         "url": "https://t.me/cybdetective"
     },
     {
-        "id": "user-routerscan",
-        "name": "???",
+        "id": "user-x86corez",
+        "name": "Stas'M",
         "type": "user",
         "links": [
             "channel-routerscan"
         ],
-        "imageUrl": "static/logo/user.jpg",
-        "url": null
+        "imageUrl": "static/logo/user-x86corez.jpg",
+        "url": "https://t.me/x86corez"
     },
     {
         "id": "channel-routerscan",
@@ -990,14 +991,14 @@
         "url": "https://t.me/freedomf0x"
     },
     {
-        "id": "user-webpwnchat",
-        "name": "???",
+        "id": "user-ibooom",
+        "name": "Bo0oM",
         "type": "user",
         "links": [
             "group-webpwnchat"
         ],
-        "imageUrl": "static/logo/user.jpg",
-        "url": null
+        "imageUrl": "static/logo/user-ibooom.jpg",
+        "url": "https://t.me/i_bo0om"
     },
     {
         "id": "group-webpwnchat",
@@ -1051,5 +1052,23 @@
         "links": [],
         "imageUrl": "static/logo/channel-cybred.jpg",
         "url": "https://t.me/cybred"
+    },
+    {
+        "id": "user-true-secator",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-true-secator"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-true-secator",
+        "name": "SecAtor",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-true-secator.jpg",
+        "url": "https://t.me/true_secator"
     }
 ]
