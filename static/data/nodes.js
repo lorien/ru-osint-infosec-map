@@ -43,7 +43,8 @@ dataNodes = [
             "user-ibooom",
             "user-codeby",
             "user-cybred",
-            "user-true-secator"
+            "user-true-secator",
+            "user-mifkilla"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -1070,5 +1071,23 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/channel-true-secator.jpg",
         "url": "https://t.me/true_secator"
+    },
+    {
+        "id": "user-mifkilla",
+        "name": "MiF",
+        "type": "user",
+        "links": [
+            "channel-tmgroupsecurity"
+        ],
+        "imageUrl": "static/logo/user-mifkilla.jpg",
+        "url": "https://t.me/mifkilla"
+    },
+    {
+        "id": "channel-tmgroupsecurity",
+        "name": "Нетипичный Безопасник (Мефодий Келевра)",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-tmgroupsecurity.jpg",
+        "url": "https://t.me/tmgroupsecurity"
     }
 ];
