@@ -4,15 +4,8 @@ This is just-for-fun online map of Russian OSINT and InfoSecurity resources: aut
 
 Rendered graph is available here https://tgscan.github.io/ru-osint-infosec-map/ This web page is rendered automatically with github pages engine and is linked to "index.html file in this repository.
 
-Fell free to submit pull requests with new graph items.
-
 ![Look of osint/infosec graph](static/img/ru-osint-infosec-map.png)
 
-## How to submit pull request
+## How to submit new data or fix?
 
-* Clone repo to your dev machine
-* Update "data/nodes.json" file with new items
-* Do not forget to place new items' logo files into "static/logo" directory
-* Run `python3 do.py compile` to rebuild JS file which used to render graph
-* Open index.html in browser and check everything is OK
-* Commit changes (including logo files), upload commit to github and create pull request
+Just create a new issue in this project.
