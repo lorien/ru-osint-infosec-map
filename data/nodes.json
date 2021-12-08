@@ -51,7 +51,8 @@
             "user-usersbox",
             "user-shadow",
             "user-my-cyde",
-            "user-ralf-hacker"
+            "user-ralf-hacker",
+            "user-gebutcher"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -1249,5 +1250,23 @@
         "links": [],
         "imageUrl": "static/logo/group-ralfchackerpublicchat.jpg",
         "url": "https://t.me/ralfhackerpublicchat"
+    },
+    {
+        "id": "user-gebutcher",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-gebutcher"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-gebutcher",
+        "name": "Заметки Gebutcher",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-gebutcher.jpg",
+        "url": "https://t.me/gebutcher"
     }
 ]
