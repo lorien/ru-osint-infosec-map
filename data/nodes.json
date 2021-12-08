@@ -44,7 +44,8 @@
             "user-codeby",
             "user-cybred",
             "user-true-secator",
-            "user-mifkilla"
+            "user-mifkilla",
+            "user-yarbabin"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -54,24 +55,12 @@
         "type": "user",
         "name": "madspectator",
         "links": [
-            "channel-grablab-osint-news",
             "channel-grablab-osint-news-ru",
-            "group-grablab-osint",
             "group-grablab-osint-ru",
             "github-lorien"
         ],
         "imageUrl": "static/logo/user.jpg",
         "url": "https://t.me/madspectator"
-    },
-    {
-        "id": "channel-grablab-osint-news",
-        "name": "GrabLab OSINT News",
-        "type": "channel",
-        "links": [
-            "group-grablab-osint"
-        ],
-        "imageUrl": "static/logo/group-grablab-osint-news.jpg",
-        "url": "https://t.me/grablab_osint_news"
     },
     {
         "id": "channel-grablab-osint-news-ru",
@@ -82,14 +71,6 @@
         ],
         "imageUrl": "static/logo/group-grablab-osint-news-ru.jpg",
         "url": "https://t.me/grablab_osint_news_ru"
-    },
-    {
-        "id": "group-grablab-osint",
-        "name": "GrabLab OSINT Chat",
-        "type": "group",
-        "links": [],
-        "imageUrl": "static/logo/group-grablab-osint.jpg",
-        "url": "https://t.me/grablab_osint"
     },
     {
         "id": "group-grablab-osint-ru",
@@ -113,7 +94,6 @@
         "type": "user",
         "links": [
             "group-howtofind-chat",
-            "channel-howtofind",
             "channel-howtofind-ru"
         ],
         "imageUrl": "static/logo/user-agent-noreply.jpg",
@@ -126,14 +106,6 @@
         "links": [],
         "imageUrl": "static/logo/group-howtofind-chat.jpg",
         "url": "https://t.me/howtofind_chat"
-    },
-    {
-        "id": "channel-howtofind",
-        "name": "HowToFind Channel",
-        "type": "channel",
-        "links": [],
-        "imageUrl": "static/logo/channel-howtofind.jpg",
-        "url": "https://t.me/howtofind"
     },
     {
         "id": "channel-howtofind-ru",
@@ -975,7 +947,7 @@
     },
     {
         "id": "user-freedomf0x",
-        "name": "???",
+        "name": "Павел Ситников",
         "type": "user",
         "links": [
             "channel-freedomf0x"
@@ -1089,5 +1061,32 @@
         "links": [],
         "imageUrl": "static/logo/channel-tmgroupsecurity.jpg",
         "url": "https://t.me/tmgroupsecurity"
+    },
+    {
+        "id": "user-yarbabin",
+        "name": "Yaroslav Babin",
+        "type": "user",
+        "links": [
+            "group-thestandoff",
+            "channel-thestandoffnews"
+        ],
+        "imageUrl": "static/logo/user-yarbabin.jpg",
+        "url": "https://t.me/yarbabin"
+    },
+    {
+        "id": "group-thestandoff",
+        "name": "THE STANDOFF CHAT",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-thestandoff.jpg",
+        "url": "https://t.me/thestandoff"
+    },
+    {
+        "id": "channel-thestandoffnews",
+        "name": "THE STANDOFF NEWS",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-thestandoffnews.jpg",
+        "url": "https://t.me/thestandoffnews"
     }
 ]
