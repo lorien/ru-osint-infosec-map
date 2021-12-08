@@ -8,4 +8,4 @@ Rendered graph is available here https://tgscan.github.io/ru-osint-infosec-map/ 
 
 ## How to submit new data or fix?
 
-Just create a new issue in this project.
+Just create a new issue in github project.
