@@ -50,7 +50,8 @@ dataNodes = [
             "user-kvakirsanov",
             "user-usersbox",
             "user-shadow",
-            "user-my-cyde"
+            "user-my-cyde",
+            "user-ralf-hacker"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -1221,5 +1222,32 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/channel-my-cyde.jpg",
         "url": "https://t.me/my_cyde"
+    },
+    {
+        "id": "user-ralf-hacker",
+        "name": "Ralf Hacker",
+        "type": "user",
+        "links": [
+            "channel-ralfhackerchannel",
+            "group-ralfchackerpublicchat"
+        ],
+        "imageUrl": "static/logo/user-ralf-hacker.jpg",
+        "url": "https://t.me/hackerralf8"
+    },
+    {
+        "id": "channel-ralfhackerchannel",
+        "name": "Ralf Hacker Channel",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-ralfhackerchannel.jpg",
+        "url": "https://t.me/ralfhackerchannel"
+    },
+    {
+        "id": "group-ralfchackerpublicchat",
+        "name": "Ralf Hacker Public Chat",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-ralfchackerpublicchat.jpg",
+        "url": "https://t.me/ralfhackerpublicchat"
     }
 ];
