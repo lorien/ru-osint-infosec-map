@@ -45,7 +45,12 @@ dataNodes = [
             "user-cybred",
             "user-true-secator",
             "user-mifkilla",
-            "user-yarbabin"
+            "user-yarbabin",
+            "user-cepter",
+            "user-kvakirsanov",
+            "user-usersbox",
+            "user-shadow",
+            "user-my-cyde"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -601,7 +606,6 @@ dataNodes = [
         "links": [
             "channel-vschannel",
             "group-antidetectchat",
-            "group-multiacceng",
             "youtube-vektort13"
         ],
         "imageUrl": "static/logo/user-vektort13.jpg",
@@ -625,14 +629,6 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/group-antidetectchat.jpg",
         "url": "https://t.me/antidetectchat"
-    },
-    {
-        "id": "group-multiacceng",
-        "name": "Multiacc party [English]",
-        "type": "group",
-        "links": [],
-        "imageUrl": "static/logo/group-multiacceng.jpg",
-        "url": "https://t.me/multiacceng"
     },
     {
         "id": "youtube-vektort13",
@@ -1049,7 +1045,8 @@ dataNodes = [
         "name": "MiF",
         "type": "user",
         "links": [
-            "channel-tmgroupsecurity"
+            "channel-tmgroupsecurity",
+            "group-bolgarkachat"
         ],
         "imageUrl": "static/logo/user-mifkilla.jpg",
         "url": "https://t.me/mifkilla"
@@ -1061,6 +1058,14 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/channel-tmgroupsecurity.jpg",
         "url": "https://t.me/tmgroupsecurity"
+    },
+    {
+        "id": "group-bolgarkachat",
+        "name": "Kelevra Security Chat",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-bolgarkachat.jpg",
+        "url": "https://t.me/bolgarkachat"
     },
     {
         "id": "user-yarbabin",
@@ -1088,5 +1093,133 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/channel-thestandoffnews.jpg",
         "url": "https://t.me/thestandoffnews"
+    },
+    {
+        "id": "user-cepter",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-cepter",
+            "group-cepter-chat",
+            "twitter-intercepterng",
+            "youtube-intercepter"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-cepter",
+        "name": "Intercepter-NG",
+        "type": "channel",
+        "links": [
+            "group-cepter-chat"
+        ],
+        "imageUrl": "static/logo/channel-cepter.jpg",
+        "url": "https://t.me/cepter"
+    },
+    {
+        "id": "group-cepter-chat",
+        "name": "Intercepter-NG Chat",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-cepter-chat.jpg",
+        "url": "https://t.me/cepter_chat"
+    },
+    {
+        "id": "twitter-intercepterng",
+        "name": "Intercepter",
+        "type": "twitter",
+        "links": [],
+        "imageUrl": "static/logo/twitter-intercepterng.jpg",
+        "url": "https://twitter.com/intercepterng"
+    },
+    {
+        "id": "youtube-intercepter",
+        "name": "Intercepter",
+        "type": "youtube",
+        "links": [],
+        "imageUrl": "static/logo/youtube-intercepter.jpg",
+        "url": "https://youtube.com/c/intercepter"
+    },
+    {
+        "id": "user-kvakirsanov",
+        "name": "Anton Kirsanov 🐸",
+        "type": "user",
+        "links": [
+            "group-secinfosec"
+        ],
+        "imageUrl": "static/logo/user-kvakirsanov.jpg",
+        "url": "https://t.me/kvakirsanov"
+    },
+    {
+        "id": "group-secinfosec",
+        "name": "secinfosec",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-secinfosec.jpg",
+        "url": "https://t.me/secinfosec"
+    },
+    {
+        "id": "user-usersbox",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "group-usersbox-chat"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "group-usersbox-chat",
+        "name": "usersbox.chat",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-usersbox-chat.jpg",
+        "url": "https://t.me/usersbox_chat"
+    },
+    {
+        "id": "user-shadow",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "group-shadow-chat-tg",
+            "channel-shadow-group-tg"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "group-shadow-chat-tg",
+        "name": "SHADOW:Chat",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-shadow-chat-tg.jpg",
+        "url": "https://t.me/shadow_chat_tg"
+    },
+    {
+        "id": "channel-shadow-group-tg",
+        "name": "SHADOW:Group",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-shadow-group-tg.jpg",
+        "url": "https://t.me/shadow_group_tg"
+    },
+    {
+        "id": "user-my-cyde",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-my-cyde"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-my-cyde",
+        "name": "Моя кибероборона // My CYber DEfence",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-my-cyde.jpg",
+        "url": "https://t.me/my_cyde"
     }
 ];

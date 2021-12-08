@@ -54,14 +54,22 @@ def action_add(node_type, username, gid):
         'website', 'twitter', 'youtube'
     ]
     if node_type in ['user', 'channel', 'group']:
-        html = get_tme_page(username)
-        name = unescape(RE_TME_TITLE.search(html).group(1))
-        logo_path = action_getlogo(username, gid, html=html)
-        url = build_tme_url(username)
+        if username == 'BLANK':
+            name = '???'
+            if node_type == 'user':
+                logo_path = 'static/logo/user.jpg'
+            else:
+                logo_path = ''
+            url = None
+        else:
+            html = get_tme_page(username)
+            name = unescape(RE_TME_TITLE.search(html).group(1))
+            logo_path = action_getlogo(username, gid, html=html)
+            url = build_tme_url(username)
     else:
-        name = ""
-        logo_path = "static/logo/user.jpg"
-        url = ""
+        name = ''
+        logo_path = ''
+        url = None
     item = {
         'id': gid,
         'name': name,
