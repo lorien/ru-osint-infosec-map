@@ -52,7 +52,8 @@ dataNodes = [
             "user-shadow",
             "user-my-cyde",
             "user-ralf-hacker",
-            "user-gebutcher"
+            "user-gebutcher",
+            "user-infosecurityevil"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -1268,5 +1269,23 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/channel-gebutcher.jpg",
         "url": "https://t.me/gebutcher"
+    },
+    {
+        "id": "user-infosecurityevil",
+        "name": "Infosecurity Evil",
+        "type": "user",
+        "links": [
+            "channel-in4security"
+        ],
+        "imageUrl": "static/logo/user-infosecurityevil.jpg",
+        "url": "https://t.me/infosecurityevil"
+    },
+    {
+        "id": "channel-in4security",
+        "name": "in4security",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-in4security.jpg",
+        "url": "https://t.me/in4security"
     }
 ];
