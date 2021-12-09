@@ -17,7 +17,7 @@ RE_TME_TITLE = re.compile(
 USER_PLACEHOLDER_IMAGE = 'static/logo/user.jpg'
 NODES_JSON_FILE = 'data/nodes.json'
 NODES_COMPILED_FILE = 'static/data/nodes.js'
-ID_ROOT_NODE = 'scope-ru-osint-infosec'
+#ID_ROOT_NODE = 'scope-ru-osint-infosec'
 
 
 def build_tme_url(username):
@@ -81,11 +81,11 @@ def action_add(node_type, username, gid):
     with open(NODES_JSON_FILE) as inp:
         data = json.load(inp)
     print('Loaded %d items from JSON file' % len(data))
-    if node_type == 'user':
-        for node in data:
-            if node['id'] == ID_ROOT_NODE:
-                if not gid in node['links']:
-                    node['links'].append(gid)
+    #if node_type == 'user':
+    #    for node in data:
+    #        if node['id'] == ID_ROOT_NODE:
+    #            if not gid in node['links']:
+    #                node['links'].append(gid)
     data.append(item)
     print('Saved %d items to JSON file' % len(data))
     with open(NODES_JSON_FILE, 'w') as out:

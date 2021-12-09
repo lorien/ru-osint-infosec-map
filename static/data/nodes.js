@@ -69,8 +69,16 @@ dataNodes = [
             "user-zeroday",
             "user-ralf-hacker",
             "user-x86corez",
-            "user-group-ib",
-            "user-seadm1n"
+            "org-group-ib",
+            "user-seadm1n",
+            "user-defcon",
+            "user-ksvark",
+            "user-cyberjobsrussia",
+            "user-dc8044",
+            "user-anton-shipulin",
+            "user-router-os",
+            "user-kii187fz",
+            "user-komarov"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -1019,7 +1027,8 @@ dataNodes = [
         "type": "user",
         "links": [
             "group-thecodeby",
-            "channel-codeby-sec"
+            "channel-codeby-sec",
+            "website-codeby"
         ],
         "imageUrl": "static/logo/user.jpg",
         "url": null
@@ -1028,7 +1037,9 @@ dataNodes = [
         "id": "channel-codeby-sec",
         "name": "Codeby Pentest",
         "type": "channel",
-        "links": [],
+        "links": [
+            "group-thecodeby"
+        ],
         "imageUrl": "static/logo/channel-codeby-sec.jpg",
         "url": "https://t.me/codeby_sec"
     },
@@ -1039,6 +1050,14 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/group-thecodeby.jpg",
         "url": "https://t.me/thecodeby"
+    },
+    {
+        "id": "website-codeby",
+        "name": "CODEBY.NET",
+        "type": "website",
+        "links": [],
+        "imageUrl": "static/logo/website-codeby.jpg",
+        "url": "https://codeby.net"
     },
     {
         "id": "user-cybred",
@@ -1322,13 +1341,13 @@ dataNodes = [
         "url": "https://t.me/in4security"
     },
     {
-        "id": "user-group-ib",
-        "name": "???",
-        "type": "user",
+        "id": "org-group-ib",
+        "name": "Group-IB",
+        "type": "org",
         "links": [
             "channel-group-ib"
         ],
-        "imageUrl": "static/logo/user.jpg",
+        "imageUrl": "static/logo/org-group-ib.jpg",
         "url": null
     },
     {
@@ -1401,5 +1420,189 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/channel-s-e-book.jpg",
         "url": "https://t.me/s_e_book"
+    },
+    {
+        "id": "user-defcon",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "group-dc7499",
+            "channel-defcon"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "group-dc7499",
+        "name": "DC7499",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-dc7499.jpg",
+        "url": "https://t.me/dc7499"
+    },
+    {
+        "id": "channel-defcon",
+        "name": "DEFCON Moscow",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-defcon.jpg",
+        "url": "https://t.me/defcon"
+    },
+    {
+        "id": "user-ksvark",
+        "name": "Kseniya Kravtsova",
+        "type": "user",
+        "links": [
+            "group-spbctf",
+            "youtube-spbctf"
+        ],
+        "imageUrl": "static/logo/user-ksvark.jpg",
+        "url": "https://t.me/ksvark"
+    },
+    {
+        "id": "group-spbctf",
+        "name": "SPbCTF",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-spbctf.jpg",
+        "url": "https://t.me/spbctf"
+    },
+    {
+        "id": "youtube-spbctf",
+        "name": "CTF в Петербурге",
+        "type": "youtube",
+        "links": [
+            "group-spbctf"
+        ],
+        "imageUrl": "static/logo/youtube-spbctf.jpg",
+        "url": "https://youtube.com/c/spbctf"
+    },
+    {
+        "id": "user-cyberjobsrussia",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-cyberjobsrussia"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-cyberjobsrussia",
+        "name": "CyberJobsRussia",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-cyberjobsrussia.jpg",
+        "url": "https://t.me/cyberjobsrussia"
+    },
+    {
+        "id": "user-dc8044",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "group-dc8044"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "group-dc8044",
+        "name": "DC8044 Newf4G ❄️",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-dc8044.jpg",
+        "url": "https://t.me/dc8044"
+    },
+    {
+        "id": "user-anton-shipulin",
+        "name": "Anton Shipulin",
+        "type": "user",
+        "links": [
+            "channel-ruscadasecnews",
+            "group-ruscadasec"
+        ],
+        "imageUrl": "static/logo/user-anton-shipulin.jpg",
+        "url": "https://t.me/anton_shipulin"
+    },
+    {
+        "id": "channel-ruscadasecnews",
+        "name": "RUSCADASEC news: Кибербезопасность АСУ ТП",
+        "type": "channel",
+        "links": [
+            "group-ruscadasec"
+        ],
+        "imageUrl": "static/logo/channel-ruscadasecnews.jpg",
+        "url": "https://t.me/ruscadasecnews"
+    },
+    {
+        "id": "group-ruscadasec",
+        "name": "RUSCADASEC community: Кибербезопасность АСУ ТП",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-ruscadasec.jpg",
+        "url": "https://t.me/ruscadasec"
+    },
+    {
+        "id": "user-router-os",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "group-router-os"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "group-router-os",
+        "name": "RouterOS Security MikroTik",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-router-os.jpg",
+        "url": "https://t.me/router_os"
+    },
+    {
+        "id": "user-kii187fz",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "group-kii187fz"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "group-kii187fz",
+        "name": "КИИ 187-ФЗ",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-kii187fz.jpg",
+        "url": "https://t.me/kii187fz"
+    },
+    {
+        "id": "user-komarov",
+        "name": "Алексей Комаров",
+        "type": "user",
+        "links": [
+            "channel-zlonov",
+            "channel-authbiods"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-zlonov",
+        "name": "ZLONOV",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-zlonov.jpg",
+        "url": "https://t.me/zlonov"
+    },
+    {
+        "id": "channel-authbiods",
+        "name": "Аутентификация, биометрия, электронная подпись",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-authbiods.jpg",
+        "url": "https://t.me/authbiods"
     }
 ];
