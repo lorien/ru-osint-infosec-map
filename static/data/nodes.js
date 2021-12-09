@@ -53,7 +53,11 @@ dataNodes = [
             "user-my-cyde",
             "user-ralf-hacker",
             "user-gebutcher",
-            "user-infosecurityevil"
+            "user-infosecurityevil",
+            "user-group-ib",
+            "user-iskra112",
+            "user-persdata",
+            "user-seadm1n"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -1287,5 +1291,86 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/channel-in4security.jpg",
         "url": "https://t.me/in4security"
+    },
+    {
+        "id": "user-group-ib",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-group-ib"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-group-ib",
+        "name": "Group-IB",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-group-ib.jpg",
+        "url": "https://t.me/group_ib"
+    },
+    {
+        "id": "user-iskra112",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-iskra112"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-iskra112",
+        "name": "𝕀𝕊𝕂ℝ-𝔸 𝔻𝕒𝕚𝕝𝕪",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-iskra112.jpg",
+        "url": "https://t.me/iskra112"
+    },
+    {
+        "id": "user-persdata",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-persdata"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-persdata",
+        "name": "Персональные_данные",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-persdata.jpg",
+        "url": "https://t.me/persdata"
+    },
+    {
+        "id": "user-seadm1n",
+        "name": "S.E.Admin",
+        "type": "user",
+        "links": [
+            "channel-social-engineering",
+            "channel-s-e-book"
+        ],
+        "imageUrl": "static/logo/user-seadm1n.jpg",
+        "url": "https://t.me/seadm1n"
+    },
+    {
+        "id": "channel-social-engineering",
+        "name": "Social Engineering",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-social-engineering.jpg",
+        "url": "https://t.me/social_engineering"
+    },
+    {
+        "id": "channel-s-e-book",
+        "name": "S.E.Book",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-s-e-book.jpg",
+        "url": "https://t.me/s_e_book"
     }
 ];
