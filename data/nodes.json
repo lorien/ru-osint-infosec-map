@@ -78,7 +78,10 @@
             "user-anton-shipulin",
             "user-router-os",
             "user-kii187fz",
-            "user-komarov"
+            "user-komarov",
+            "user-artemov",
+            "user-darknet-prison",
+            "user-nekaspersky"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -1604,5 +1607,59 @@
         "links": [],
         "imageUrl": "static/logo/channel-authbiods.jpg",
         "url": "https://t.me/authbiods"
+    },
+    {
+        "id": "user-artemov",
+        "name": "Никита Артемов",
+        "type": "user",
+        "links": [
+            "channel-artemov-security"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-artemov-security",
+        "name": "Мыслить как безопасник",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-artemov-security.jpg",
+        "url": "https://t.me/artemov_security"
+    },
+    {
+        "id": "user-darknet-prison",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-darknet-prison"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-darknet-prison",
+        "name": "Горизонт Событий",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-darknet-prison.jpg",
+        "url": "https://t.me/darknet_prison"
+    },
+    {
+        "id": "user-nekaspersky",
+        "name": "???",
+        "type": "user",
+        "links": [
+            "channel-nekaspersky"
+        ],
+        "imageUrl": "static/logo/user.jpg",
+        "url": null
+    },
+    {
+        "id": "channel-nekaspersky",
+        "name": "НеКасперский",
+        "type": "channel",
+        "links": [],
+        "imageUrl": "static/logo/channel-nekaspersky.jpg",
+        "url": "https://t.me/nekaspersky"
     }
 ]
