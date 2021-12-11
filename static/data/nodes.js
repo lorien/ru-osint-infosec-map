@@ -986,7 +986,7 @@ dataNodes = [
         "type": "website",
         "links": [],
         "imageUrl": "static/logo/website-rtechno.png",
-        "url": "https://r-techo.com"
+        "url": "https://r-techno.com"
     },
     {
         "id": "user-freedomf0x",
