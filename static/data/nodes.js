@@ -32,7 +32,8 @@ dataNodes = [
             "user-agent-noreply",
             "user-soxoj",
             "user-denis-wagner",
-            "user-madspectator"
+            "user-madspectator",
+            "user-schwarz-osint"
         ],
         "imageUrl": "static/logo/scope-house.png",
         "url": null
@@ -1661,5 +1662,43 @@ dataNodes = [
         "links": [],
         "imageUrl": "static/logo/channel-nekaspersky.jpg",
         "url": "https://t.me/nekaspersky"
+    },
+    {
+        "id": "user-schwarz-osint",
+        "name": "Schwarz_Osint",
+        "type": "user",
+        "links": [
+            "channel-schwarz-osint",
+            "group-geoint",
+            "group-intelligence-guild"
+        ],
+        "imageUrl": "static/logo/user-schwarz-osint.jpg",
+        "url": "https://t.me/schwarz_osint_contact"
+    },
+    {
+        "id": "channel-schwarz-osint",
+        "name": "Schwarz_Osint",
+        "type": "channel",
+        "links": [
+            "group-geoint"
+        ],
+        "imageUrl": "static/logo/channel-schwarz-osint.jpg",
+        "url": "https://t.me/schwarz_osint"
+    },
+    {
+        "id": "group-geoint",
+        "name": "GEOINT",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-geoint.jpg",
+        "url": "https://t.me/geoint"
+    },
+    {
+        "id": "group-intelligence-guild",
+        "name": "Северная Пальмира",
+        "type": "group",
+        "links": [],
+        "imageUrl": "static/logo/group-intelligence-guild.jpg",
+        "url": "https://t.me/intelligence_guild"
     }
 ];
